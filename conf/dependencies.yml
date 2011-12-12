@@ -1,0 +1,5 @@
+# Application dependencies
+
+require:
+    - play
+    - uk.co.jemos.podam -> podam 3.0.1.RELEASE
