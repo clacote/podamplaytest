@@ -12,8 +12,8 @@ public class Member {
 
     public Set<SharedLink> sharedLinks;
 
+    // Without setter, PODAM generation for sharedLinks attribute doesn't work, even if attribute is public.
     public void setSharedLinks(Set<SharedLink> sharedLinks) {
         this.sharedLinks = sharedLinks;
     }
-    
 }
